@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent"
+ android:orientation="vertical" 
+ android:background="#eee">
+ 
+    
+ <TextView
+  android:layout_width="fill_parent"
+  android:textColor="#000000" 
+  android:textSize="20dp" 
+  android:textStyle="bold"
+  android:layout_height="wrap_content" 
+  android:text="单兵号：" />
+ 
+ 
+ 
+ 
+ <EditText
+  android:id="@+id/phone" 
+  android:layout_width="fill_parent"
+  android:textSize="18dp" 
+  android:layout_height="wrap_content"
+  android:hint="请填写呼叫的单兵号码" 
+  android:background="@drawable/login_editbox"
+  
+  
+  />
+ <LinearLayout 
+     
+  android:layout_width="fill_parent"
+  android:layout_margin="10dp" 
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_gravity="center_horizontal">
+  
+  
+  <Button 
+      
+   android:id="@+id/one"
+   android:layout_width="wrap_content"
+   android:textSize="20dp"
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_weight="1" 
+   android:layout_height="wrap_content"
+   android:text="1" />
+  <Button 
+   android:id="@+id/two" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="2" />
+  <Button 
+   android:id="@+id/three" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="3" />
+ </LinearLayout>
+ <LinearLayout 
+  android:layout_width="fill_parent"
+  android:layout_margin="10dp" 
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" 
+  android:layout_gravity="center_horizontal">
+  <Button 
+   android:id="@+id/four" 
+   android:layout_width="wrap_content"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_weight="1"
+   android:layout_height="wrap_content"
+   android:text="4" />
+  
+  
+  <Button 
+   android:id="@+id/five" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="5" />
+ 
+  
+  <Button
+      
+   android:id="@+id/six" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="6" />
+ </LinearLayout>
+ 
+ <LinearLayout 
+  android:layout_width="fill_parent"
+  android:layout_margin="10dp" 
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" 
+  android:layout_gravity="center_horizontal">
+  <Button 
+   android:id="@+id/seven" 
+   android:layout_width="wrap_content"
+   android:textSize="20dp"
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_weight="1" 
+   android:layout_height="wrap_content"
+   android:text="7" />
+  <Button
+   android:id="@+id/eight"
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="8" />
+  <Button 
+   android:id="@+id/nine" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"
+   android:text="9" />
+ </LinearLayout>
+ <LinearLayout 
+  android:layout_width="fill_parent"
+  android:layout_margin="10dp" 
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" 
+  android:layout_gravity="center_horizontal">
+  <Button 
+   android:id="@+id/zero" 
+   android:layout_width="fill_parent"
+   android:layout_weight="1" 
+   android:layout_height="wrap_content"
+   android:text="0" 
+   android:textSize="20dp" android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:background="@drawable/btn_style_alert_dialog_cancel" />
+  <Button 
+   android:id="@+id/reset" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold"
+   android:text="重  置" 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:background="@drawable/btn_style_alert_dialog_cancel" />
+  <Button 
+      
+      
+   android:id="@+id/delete" 
+   android:layout_weight="1"
+   android:textSize="20dp" 
+   android:textColor="#ffffff"
+   android:textStyle="bold" 
+   android:text="删  除"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:background="@drawable/btn_style_alert_dialog_cancel" />
+ </LinearLayout>
+
+ <LinearLayout 
+     
+  android:layout_width="fill_parent"
+  android:layout_marginTop="15dp" 
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:layout_gravity="center" >
+   <Button            
+             android:id="@+id/yuyinhujiao"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"            
+            android:background="@drawable/btn_style_green"            
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="14dp"
+            android:text="呼叫"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="hujiao"
+             />
+        
+         <Button 
+              android:id="@+id/guaduan"           
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"            
+            android:background="@drawable/btn_style_red"            
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:text="挂断"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="gua_duan"
+             />
+ </LinearLayout>
+</LinearLayout>

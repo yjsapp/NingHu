@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:background="@drawable/chat_bg_default" >
+ 
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+   android:layout_height="fill_parent"
+     android:scrollbarStyle="outsideOverlay" >
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+<TableRow android:id="@+id/TableRow999" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 		 
+		android:layout_marginTop="25dip"
+		android:layout_marginBottom="5dip"
+		android:layout_marginLeft="15dip">
+<TextView  
+	android:textSize="30sp"		
+	android:gravity="center_horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="工单详情"
+    android:textColor="#000000"
+    />
+</TableRow>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="接收人："
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/jieshouren"
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="工单号:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    android:singleLine="true"	
+    />
+<TextView 	
+    
+	android:id="@+id/gongdanhao"
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="接收时间:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/jieshoushijian"
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="信息来源:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/xinxilaiyuan"
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="事件标题："
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/shijianbiaoti"
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="任务类型:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/renwuleixing"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="严重程度:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/yanzhongchengdu"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="事件地点:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/shijiandidian"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="发生时间:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/fashengshijian"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="车型:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/chexing"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="车号:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/chehao"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="停车地点:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/tingchedidian"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="载货量:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/zaihuoliang"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+
+
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="桩号:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/zhuanghao"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="清障车车号:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/qingzhangchechehao"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="清障车车型:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/qingzhangchechexing"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="清障车主驾:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/qingzhangchezhujia"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="清障车副驾:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/qingzhangchefujia"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content" 
+			 android:orientation="horizontal" 
+			 > 
+<TextView  
+   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:text="占用车道:"
+    android:textColor="#000000"
+    android:textSize="30px"
+    
+    />
+<TextView 	
+    
+	android:id="@+id/zhanyongchedao"
+		
+	
+	android:saveEnabled="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 	
+	android:width="230dip">
+</TextView>
+</LinearLayout>
+
+</TableLayout>
+
+</ScrollView>
+
+ 
+ 
+ </LinearLayout>

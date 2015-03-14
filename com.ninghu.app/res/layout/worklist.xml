@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top1" />
+
+        <include layout="@layout/top2" />
+    </LinearLayout>
+
+    <com.superapp.view.MyScrollLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/llayout" >
+		<!-- 新工单显示的界面 -->
+        <com.superapp.view.MyFrame
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/reader_item_divider"
+                
+                android:listSelector="@android:color/transparent"
+                >
+            </ListView>
+        </com.superapp.view.MyFrame>
+		<!-- 未完成工单对应显示的界面 -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+         <ListView
+                android:id="@+id/listView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/reader_item_divider"
+                android:listSelector="@android:color/transparent"
+                >     </ListView>
+   </FrameLayout>
+		<!-- 已完成工单显示的界面 -->
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <ListView
+                android:id="@+id/listView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+           
+                android:divider="@drawable/reader_item_divider"
+                android:listSelector="@android:color/transparent"
+                >
+            </ListView>
+        </FrameLayout>
+    </com.superapp.view.MyScrollLayout>
+
+</RelativeLayout>

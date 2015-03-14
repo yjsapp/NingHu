@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+    <RelativeLayout 
+        android:id="@+id/login_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar">
+        <Button
+            android:id="@+id/login_reback_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:onClick="login_zhuce"
+            android:background="@drawable/title_btn_back"/>
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="登录"
+           />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/login_top_layout"
+        >
+        
+      <TextView 
+	     android:id="@+id/loginmeans_text"
+	     android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"    
+	      android:layout_below="@+id/login_top_layout" 
+	      android:text="主驾登录：" 
+	      android:textColor="#000"
+	    android:textSize="18sp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:singleLine="true"
+	        />
+
+	<Spinner
+	    android:id="@+id/meansspinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/loginmeans_text"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/login_editbox"
+	    android:drawSelectorOnTop="true"
+	    android:hint=""
+	    android:prompt="@string/spinner"
+	    android:singleLine="true"
+	    android:textColor="#000"
+	    android:textSize="15sp" />
+	
+	<TextView 
+	     android:id="@+id/gonghao_tv"
+	     android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"    
+	      android:layout_below="@+id/meansspinner" 
+	      android:text="输入工号或手机号：" 
+	      android:textColor="#000"
+	    android:textSize="18sp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:singleLine="true"
+	        />
+	<EditText 
+	    android:id="@+id/gonghao_et"
+	    android:inputType="text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/gonghao_tv"
+	    android:textColor="#000"
+	    android:textSize="15sp"
+	    android:saveEnabled="true"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:background="@drawable/login_editbox"
+	   
+	    android:singleLine="true"
+	    android:hint=""/>
+	
+	
+	 <CheckBox 
+            android:id="@+id/jump_login" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="23dp"
+	        android:layout_marginTop="15dp"
+	        android:text="跳过登录"
+	        android:textSize="16sp"
+	        android:layout_below="@+id/gonghao_et"
+	        />   
+	
+	
+	
+	
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="50dp"
+	    android:layout_below="@+id/gonghao_et"
+	    >
+	  
+	    <CheckBox 
+            android:id="@+id/forget_passwd" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="23dp"
+	        android:layout_marginTop="5dp"
+	        android:text="记住信息"
+	        android:textSize="16sp"
+	        />     
+	     <Button
+	        android:id="@+id/login_login_btn"
+	        android:layout_width="90dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_alignParentRight="true"
+	        android:text="登录"
+	        android:background="@drawable/btn_style_green"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp"
+	        android:onClick="login_main"
+	        />
+	</RelativeLayout>
+	</RelativeLayout>
+	
+</RelativeLayout>

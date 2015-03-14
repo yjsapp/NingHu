@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src
+END
+NativeH264Encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/NativeH264Encoder.h
+END
+slice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/slice.cpp
+END
+sad_mb_offset.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/sad_mb_offset.h
+END
+vlc_encode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/vlc_encode.cpp
+END
+sad_halfpel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/sad_halfpel.cpp
+END
+init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/init.cpp
+END
+sad_halfpel_inline.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/sad_halfpel_inline.h
+END
+pvavcencoder_factory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/pvavcencoder_factory.cpp
+END
+sad.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/sad.cpp
+END
+residual.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/residual.cpp
+END
+sad_inline.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/sad_inline.h
+END
+findhalfpel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/findhalfpel.cpp
+END
+avcenc_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/avcenc_int.h
+END
+pvavcencoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/pvavcencoder.cpp
+END
+motion_est.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/motion_est.cpp
+END
+bitstream_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/bitstream_io.cpp
+END
+motion_comp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/motion_comp.cpp
+END
+intra_est.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/intra_est.cpp
+END
+avcenc_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/avcenc_api.cpp
+END
+header.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/header.cpp
+END
+avcenc_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/avcenc_lib.h
+END
+block.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/block.cpp
+END
+NativeH264Encoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/NativeH264Encoder.cpp
+END
+rate_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/rate_control.cpp
+END
+avcenc_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/enc/src/avcenc_api.h
+END

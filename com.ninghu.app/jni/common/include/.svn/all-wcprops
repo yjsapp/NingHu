@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/common/include
+END
+avcapi_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/common/include/avcapi_common.h
+END
+avcint_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/common/include/avcint_common.h
+END
+avclib_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/common/include/avclib_common.h
+END

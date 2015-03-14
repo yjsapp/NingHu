@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src
+END
+slice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/slice.cpp
+END
+yuv2rgb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/yuv2rgb.cpp
+END
+itrans.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/itrans.cpp
+END
+3GPVideoParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/3GPVideoParser.h
+END
+avcdec_bitstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/avcdec_bitstream.h
+END
+avcdec_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/avcdec_int.h
+END
+pvavcdecoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/pvavcdecoder.cpp
+END
+yuv2rgb.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/yuv2rgb.h
+END
+residual.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/residual.cpp
+END
+avcdec_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/avcdec_api.cpp
+END
+NativeH264Decoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/NativeH264Decoder.cpp
+END
+avcdec_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/avcdec_lib.h
+END
+avc_bitstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/avc_bitstream.cpp
+END
+vlc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/vlc.cpp
+END
+NativeH264Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/NativeH264Decoder.h
+END
+pred_intra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/pred_intra.cpp
+END
+header.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/header.cpp
+END
+pred_inter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/pred_inter.cpp
+END
+pvavcdecoder_factory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/pvavcdecoder_factory.cpp
+END
+3GPVideoParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/28/trunk/codecs/video/avc_h264/dec/src/3GPVideoParser.cpp
+END

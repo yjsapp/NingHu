@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent"
+     android:scrollbarStyle="outsideOverlay" 
+      android:background="#eee"> 	
+ <LinearLayout  
+      	
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/query" />
+            
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="业务"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+            
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="By：普诺科技"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/main_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_green"
+            android:gravity="center"
+            android:paddingLeft="120dp"
+            android:paddingRight="120dp"
+            android:layout_marginTop="15dp"
+            android:text="清障任务"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:onClick="qingzhang_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="点击可查询具体的清障信息"
+            android:textSize="14sp"
+            android:textColor="#444" />
+         
+        <Button
+            android:id="@+id/main_regist_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_style_white"
+            android:gravity="center"
+          
+            android:paddingLeft="120dp"
+            android:paddingRight="120dp" 
+            android:text="养护任务"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:onClick="yanghu_button"  />
+           
+  
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:gravity="center"
+            android:text="点击查询养护任务"
+            android:textSize="14sp"
+            android:textColor="#444"  />
+    </LinearLayout>
+    </ScrollView>

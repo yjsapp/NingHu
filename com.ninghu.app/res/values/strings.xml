@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">普诺单兵</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">宁沪高速</string>
+      <string name="loginmeans">主驾登录：</string>
+       <string name="spinner">选择登录方式</string>
+        <string name="yanghuspinner">选择养护方向</string>
+       
+       
+        <string name="chedaospinner">选择车道位置</string>
+         <string name="bingduspinner">选择病毒类型</string>
+       <string name="gl_wait">请稍等</string>
+       <string name="wait">请稍等...</string>
+    <string name="registering">正在注册设备...</string>
+
+</resources>

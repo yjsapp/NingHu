@@ -1,0 +1,197 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.superapp.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name="com.superapp.main.LocationApplication"
+        android:debuggable="true"
+         android:icon="@drawable/ninghu"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="CHyPDSiHR6ouiOjKSFEslqID" />
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+           <activity android:name="Confirm" android:theme="@style/MyDialogStyle" />
+           
+           <activity android:name="com.superapp.Notification.VideoReceiver" android:theme="@style/MyDialogStyle" />
+           <activity android:name="com.superapp.Notification.AudioReceiver" android:theme="@style/MyDialogStyle" />
+           <activity android:name="com.superapp.Notification.GongdanReceiver" android:theme="@style/MyDialogStyle" />
+            <activity android:name="SendImage" android:theme="@style/MyDialogStyle" />
+        
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_welcome" />
+         <activity
+            android:name=".MainWork"
+            android:label="@string/title_activity_welcome" />
+         
+        <activity
+            android:name=".WorkList" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+               <activity
+            android:name=".Yiwanchenggd" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+             <activity
+            android:name=".Zhixing" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+              <activity
+            android:name=".Photos" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/> 
+             
+              
+               <activity
+            android:name=".Calling" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>
+               
+               
+                <activity
+            android:name=".Called" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>
+               
+               <activity
+            android:name=".Fit" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+              <activity
+            android:name=".SoftUpdate" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+                 <activity
+            android:name=".YangHu" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+             <activity
+            android:name=".ImageGridView" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>   
+            <activity
+            android:name=".ImageGalleryPlay" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/> 
+              <activity
+            android:name=".VideosPlay" android:screenOrientation="portrait"
+             android:label="@string/title_activity_welcome"/>  
+               
+           <activity
+            android:name=".VideoUpload"
+            android:label="@string/title_activity_welcome"
+            android:configChanges="orientation" > </activity> 
+            <activity
+            android:name=".MediaUpload"
+            android:label="@string/title_activity_welcome"
+            > </activity>  
+            
+            <activity
+            android:name=".H264Sending"
+            android:label="@string/title_activity_welcome"
+            > </activity>
+            
+            
+            <activity
+            android:name=".ChoosePath"
+             android:label="@string/title_activity_welcome">
+        </activity>
+           
+               
+        <activity
+   			android:name="com.tencent.weibo.webview.OAuthV2AuthorizeWebView"
+    		  android:label="@string/title_activity_welcome"
+    		 >
+            </activity> 
+            
+        
+        
+        
+        
+        <service android:name="com.superapp.gps.GPSService"></service> 
+        
+     
+        <service android:name="com.superapp.Notification.NewsService"></service> 
+             
+           <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>   
+             
+             
+         <receiver android:name="com.superapp.BroadcastReceiver.GpsReceiver">  
+            <intent-filter>  
+                <action android:name="com.superapp.BroadcastReceiver.GPS"/>  
+            </intent-filter>  
+        </receiver>
+        
+ 
+         
+    </application>
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>  
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>   
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name ="android.permission.INTERNET"  /> 
+     <uses-permission android:name="android.permission.CAMERA"/>  
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>  
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>  
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+ <!-- 添加操作闪光灯的权限 -->
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<!-- 添加操作振动器的权限 -->
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	
+	
+	
+	
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">  
+	</uses-permission>  
+	<permission android:name="android.permission.BAIDU_LOCATION_SERVICE">  
+	</permission>  
+	<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION">  
+	</uses-permission>  
+	<uses-permission android:name="android.permission.ACCESS_GPS"/> 
+	
+	 <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+	
+	
+	
+	
+	
+
+	 <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+	
+	
+	
+	
+	
+
+</manifest>

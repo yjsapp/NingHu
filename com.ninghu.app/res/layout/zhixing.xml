@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+           
+        <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_vertical"  >
+  			<Button
+            	android:id="@+id/login_reback_btn"
+            	android:layout_width="70dp"
+            	android:layout_height="wrap_content"
+            	android:layout_centerVertical="true"
+            	android:text="返回"
+            	android:textSize="14sp"
+            	android:textColor="#fff"
+            	android:onClick="btn_back"
+           		android:background="@drawable/title_btn_back"/>  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="工单详细"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" /> 
+			<ImageButton 
+			    android:id="@+id/zhixing111"
+			    android:layout_width="67dp" 
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="5dp"
+        		android:src="@drawable/mm_title_btn_menu"
+        		android:onClick="menu"
+				android:background="@drawable/title_btn_right"
+			    />      
+		</RelativeLayout>
+		
+    <ScrollView
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scrollbarStyle="outsideOverlay"  >
+			
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp" >
+			
+            <ImageView
+      		    	android:id="@+id/add_friend"
+            		android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"        			
+        			android:layout_marginLeft="8dp"
+        			android:padding="8dp"
+        			android:src="@drawable/xiaohei"
+        			 /> 
+        			
+            <TextView
+                    android:id="@+id/receiver"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentTop="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="95dp"
+        			android:padding="8dp" 
+        			android:text="潘丽策"
+        			android:textSize="16sp"		
+					android:textColor="#000" />
+            
+            
+             <TextView
+                    android:id="@+id/task_type"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentTop="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="180dp"
+        			android:padding="8dp" 
+        			android:text="故障"
+        			android:textSize="16sp"		
+					android:textColor="#000" />
+            
+            
+            
+            <TextView
+                    android:id="@+id/location"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentTop="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="245dp"
+        			android:padding="8dp" 
+        			android:text="沪宁1K+3M"
+        			android:textSize="16sp"		
+					android:textColor="#000" />
+            <TextView
+                
+                    android:id="@+id/task_id"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentLeft="true"
+        			android:layout_alignParentBottom="true"
+        			android:layout_marginLeft="95dp"
+        			android:padding="8dp" 
+        			android:text="7676756756546776767867897987979123456789"
+        			android:textSize="15sp"		
+					android:textColor="#333" /> 
+					
+					
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp" >
+			
+         	<RelativeLayout      				    
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"            	
+            	android:gravity="center_vertical"
+            	android:clickable="true"
+            	android:background="@drawable/preference_first_item" >
+      		  <TextView
+      		        
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="车型"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/vehicle_fault_type"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="奥迪A6L"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 					
+   		  	</RelativeLayout>
+   		  
+         	
+         	
+         	
+         	
+         	
+   		  	<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="车号"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/vehicle_fault_num"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="浙A38387"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+            	    
+            	     android:id="@+id/cargo"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="载货量"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/cargo"
+
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="21g"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+   		  	
+   		  	
+   		  	
+   		  	
+   		  	
+   		  		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="接收时间"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/receive_time"
+				    
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="2014-03-08 15:38"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="占用车道"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/chedao"
+				    
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="一车道"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+            	    
+            	    
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="事件地点"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/location"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="健B301"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		
+      		
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="发生时间"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/event_time"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="2014-03-08 15:89"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 
+							
+      		</RelativeLayout>
+      		
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="停车地点"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/parking_position"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="浙江工业大学"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		
+      		
+      		
+      		
+      		
+      		
+      			<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="信息来源"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/info_source"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="王老板"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      			<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="事件标题"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/task_name"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="有人猝死"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      			<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="严重程度"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/order"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="不严重"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="清障车车号"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				    android:id="@+id/wrecker_num"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="浙A120"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="清障车车型"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				     android:id="@+id/wrecker_type"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="自行车"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="清障车主驾"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				     android:id="@+id/driver"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="王惠州"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="清障车副驾"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<TextView
+				     android:id="@+id/co_driver"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp" 
+        			android:text="潘丽策"
+        			android:textSize="15sp"		
+					android:textColor="#000" /> 			
+      		</RelativeLayout>
+      		
+      		<RelativeLayout
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:gravity="center_vertical"
+            		android:clickable="true"
+            		android:background="@drawable/preference_last_item" >
+            	<TextView
+        			android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content"
+        			android:layout_centerVertical="true"
+        			android:padding="7dp" 
+        			android:text="事故拍照"
+        			android:textSize="17sp"		
+					android:textColor="#333" /> 
+				<ImageView
+				    android:id="@+id/xh_head_img"
+      		    	android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentLeft="true"
+        			android:layout_marginLeft="100dp"
+        			android:padding="7dp"
+        			android:src="@drawable/xiaohei" />  
+        		<ImageView
+      		    	android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_centerVertical="true"
+        			android:layout_toRightOf="@id/xh_head_img"
+        			
+        			android:layout_marginLeft="0dp"
+        			android:padding="8dp"
+        			android:src="@drawable/xiaohei" />  	
+        			
+        		<ImageView
+            		android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"        	     	
+        			android:scaleType="matrix"
+        			android:layout_centerVertical="true"
+        			android:layout_alignParentRight="true"
+        			android:clickable="true"
+        			android:src="@drawable/mm_submenu" />	
+      		</RelativeLayout>
+      		
+      	
+        </LinearLayout>
+        
+        <Button            
+             android:id="@+id/zhixingbutton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"            
+            android:background="@drawable/btn_style_green"            
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="14dp"
+            android:text="空闲"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="zhixing"
+             />
+        
+         <Button 
+              android:id="@+id/hulue_button"           
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"            
+            android:background="@drawable/btn_style_red"            
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="40dp"
+            android:text="忽略"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="hulue"
+             />
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	</LinearLayout>
+  </ScrollView>
+</LinearLayout>
